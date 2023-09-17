@@ -1,4 +1,4 @@
 ---
-layout: redirected
-redirect_to:  https://nathanhameau/Portfolio/
+redirect:   https://www.example.org
+layout:     redirect
 ---
