@@ -1,0 +1,160 @@
+* 
+{ 
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #E0E0E0;
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    height: 5em;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#h1-header {
+    margin-left: 1%;
+    font-size: 1.5em;
+    font-weight: 800;
+}
+
+#section-reseaux {
+    display: flex;
+    gap: 1em;
+    padding: 1em;
+    justify-content: flex-end;
+}
+
+#section-main {
+    text-align: center;
+    margin-top: 5em;
+    margin-bottom: 5em;
+}
+
+#section-projects {
+    display: flex;
+    margin: 0 20%;
+}
+
+#section-bot {
+    display: flex;
+    flex-direction: row;
+    margin: 5% 0 0 20%;
+    gap: 2em;
+}
+
+#section-main h1 {
+    font-size: 2em;
+    font-weight: 800;
+}
+
+#section-main h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+#section-bot > div > div {
+    display: flex;
+    gap: 0.25em;
+}
+
+.projects {
+    width : 100%;
+    height : auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 10em;
+}
+
+.description {
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.div-image {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.div-image img {
+    width: auto;
+    height: 100%;
+    
+}
+
+@media screen and (max-width:425px){
+    .project {
+        flex-direction: column; 
+    }
+    .description {
+        width: 100%;
+        align-items: center;
+    }
+    #section-projects {
+        margin: 0 5%;
+    }
+    #section-bot {
+        margin: 5% 0 0 5%;
+    }
+}
+
+.dates {
+    width: 1em;
+    margin-left: 1em;
+}
+
+.date-line {
+    display: flex;
+    flex-direction: column;
+}
+
+.gap {
+    height: 1em;
+}
+
+.margin-gap {
+    margin-bottom: 1em;
+}
+
+.vertical-text {
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+.line {
+    border-right: thin solid #000000;
+    width: 50%;
+    flex-grow: 1;
+}
+
+.dashed-line {
+    border-right: dashed thin #000000;
+    width: 0.5em;
+    flex-grow: 1;
+}
+
+.project-size {
+    height : 10em;
+}
+
+#a-aboutme {
+    color: #292929;
+}
+
