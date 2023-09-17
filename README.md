@@ -1,4 +1,4 @@
 ---
 layout: forward
-target: nathan.hameau/Portfolio/
+target: https://nathanhameau.me/Portfolio/
 ---
